@@ -1,5 +1,18 @@
 console.log("working");
 
+
+//navbar  
+
+const button = document.querySelector('#menu-button');
+const menu = document.querySelector('#menu');
+
+
+button.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+});
+
+
+
 //stats counter
 document.addEventListener("DOMContentLoaded", () => {
   function counter(id, start, end, duration) {
